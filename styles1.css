@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    min-width: 250px;
+    flex-wrap: wrap;
+}
+
+nav img,
+main img {
+    width: 20px;
+}
+
+.nav-mid {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-r {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-r .cart {
+    position: relative;
+}
+
+.nav-r .cart p {
+    background-color: red;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 0.6rem;
+    position: absolute;
+    top: -4px;
+    right: -5px;
+}
+
+main {
+    width: 1500px;
+    height: 500px;
+    margin:  100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    box-shadow: 0px 2px 8px 4px #ddd;
+    padding: 25px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card .card-del {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+}
+
+.card-del img {
+    width: 15px;
+}
+
+.card .card-middle {
+    background-color: deepskyblue;
+    color: white;
+    width: 130px;
+    height: 120px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+}
+
+.card .card-middle .box-incard img {
+    width: 24px;
+    border: 0px solid black;
+    border-radius: 6px;
+    background-color: white;
+    padding: 6px;
+}
+
+.box-select {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.dotandselect {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.dot {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.dot1 {
+    background: linear-gradient(90deg, rgba(3, 107, 1, 1) 0%, rgba(4, 179, 4, 1) 35%, rgba(255, 250, 163, 1) 100%)
+}
+
+.dot2,
+.dot3 {
+    background-color: #ddd;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+    border: 0px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.dot-c2 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.dot-1,
+.dot-2,
+.dot-3 {
+    border: 0px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(3, 107, 1, 1) 0%, rgba(4, 179, 4, 1) 35%, rgba(255, 250, 163, 1) 100%)
+}
+
+.card2-middle {
+    background-color: orange;
+    color: white;
+    width: 130px;
+    height: 120px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+}
+
+.card2-middle .box2-incard img {
+    width: 24px;
+    border: 0px solid black;
+    border-radius: 6px;
+    background-color: white;
+    padding: 6px;
+}
+
+.right-site {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.order {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+i {
+    color: mediumaquamarine;
+}
+
+input {
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #ddd;
+}
+
+.discout button {
+    padding: 6px 30px;
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid mediumspringgreen;
+}
+
+.total-payment {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: mediumaquamarine;
+    border: none;
+}
+
+.thb300 {
+    color: mediumaquamarine;
+}
