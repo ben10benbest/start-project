@@ -21,6 +21,17 @@ main img {
 .nav-mid {
     display: flex;
     gap: 12px;
+    cursor: pointer;
+}
+
+.nav-mid p{
+    transition: all .5s;
+}
+
+.nav-mid p:hover{
+    padding: 6px;
+    border-radius: 12px;
+    border: 1px solid black;
 }
 
 .nav-r {
